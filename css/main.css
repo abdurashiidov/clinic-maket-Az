@@ -2731,6 +2731,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  margin-left: 30px;
+  scroll-behavior: inherit;
 }
 
 .trim-arrows {
