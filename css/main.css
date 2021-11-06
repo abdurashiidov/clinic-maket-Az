@@ -2625,14 +2625,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .infor__left-side__img {
   position: relative;
-  margin-right: 100px;
   margin-left: -150px;
 }
 
@@ -2650,5 +2646,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 127px;
+  margin-left: 100px;
 }
 /*# sourceMappingURL=main.css.map */
