@@ -7,6 +7,8 @@
 
         &__img{
             position: relative;
+            margin-right: 100px;
+            margin-left: -150px;
         }
 
         &__text{
@@ -20,6 +22,7 @@
             line-height: 26px;
             color: #949494;
             align-items: center;
+            margin-top: 127px;
         }
 
     }

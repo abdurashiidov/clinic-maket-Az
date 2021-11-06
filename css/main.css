@@ -2632,6 +2632,8 @@ body {
 
 .infor__left-side__img {
   position: relative;
+  margin-right: 100px;
+  margin-left: -150px;
 }
 
 .infor__left-side__text {
@@ -2647,5 +2649,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 127px;
 }
 /*# sourceMappingURL=main.css.map */
