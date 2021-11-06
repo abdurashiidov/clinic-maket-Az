@@ -2732,7 +2732,7 @@ body {
   display: flex;
   position: relative;
   margin-left: 30px;
-  scroll-behavior: inherit;
+  max-width: 961px;
 }
 
 .trim-arrows {
