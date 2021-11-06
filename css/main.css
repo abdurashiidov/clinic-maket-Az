@@ -2733,6 +2733,9 @@ body {
   position: relative;
   margin-left: 30px;
   max-width: 961px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .trim-arrows {
