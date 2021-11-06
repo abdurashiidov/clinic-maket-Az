@@ -2670,6 +2670,7 @@ body {
   line-height: 20px;
   color: #949494;
   margin-top: 100px;
+  max-width: 494px;
 }
 
 .color-yellow {
