@@ -1,0 +1,92 @@
+.container__buydog{
+    max-width: 1328px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.buydog{
+    display: flex;
+    margin-bottom: 126px;
+
+    &__right-side{
+        max-width: 517px;
+        margin-left: 81px;
+        margin-top: 68px;
+
+        &__wrap{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 35px;
+
+            &__spanner1{
+                font-family: "Futura PT", "Arial", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                display: flex;
+                align-items: center;
+                color: #3D9CEA;
+            }
+
+            &__spanner2{
+                font-family: "Futura PT", "Arial", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #949494;
+            }
+        }
+
+        &__heading{
+            font-family: "Futura PT", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 38px;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            max-width: 325px;
+            margin-bottom: 20px;
+        }
+
+        &__text{
+            margin: 0;
+            padding: 0;
+            font-family: "Futura PT", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+            margin-bottom: 52px;
+        }
+
+        &__link{
+            font-family: "Futura PT", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #333333;
+            text-decoration: none;
+            // margin-left: 32px;
+            display: flex;
+            cursor: pointer;
+            z-index: 1;
+
+            &::before{
+                content: "";
+                background-image: url(./../../image/faq-inf-pet-yellow.svg);
+                display: block;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 23px;
+                height: 21px;
+                transform: rotate(-135deg);
+                cursor: pointer;
+            }
+        }
+    }
+}

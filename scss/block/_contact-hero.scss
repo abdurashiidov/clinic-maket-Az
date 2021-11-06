@@ -1,0 +1,94 @@
+.container-contact-nav{
+    max-width: 902px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.contact{
+    // background-image: url(./../../image/contact-dog-doctor.png);
+    // display: block;
+    // background-repeat: no-repeat;
+    // background-size: 487px 548px;
+    background-position-x: 1000px;
+    background-position-y: -0;
+    // background-position-y: 0px;
+    position: relative;
+    display: flex;
+    
+    
+    
+    &__container{
+        max-width: 1285px;
+        margin: 0 auto;
+        padding: 0 10px;
+        max-height: 100vh;
+    }
+
+
+    &__heading-1{
+        font-family: "Futura PT", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 27px;
+        margin-top: 118px;
+    }
+
+    &__text{
+        font-family: "Futura PT", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        max-width: 447px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 117px;
+    }
+
+    &__wrap-info{
+        display: flex;
+
+        &__in{
+            width: 188px;
+            margin-right: 58px;
+
+            &__img{
+                margin-bottom: 27px;
+            }
+        }
+
+        &__in__text{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 9px;
+
+            &2{
+                margin: 0;
+                padding: 0;
+                margin-bottom: 9px;
+            }
+
+            &3{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+
+    &__right-side{
+        background-image: url(../../image/contact-dog-doctor.png);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 487px;
+        height: 548px;
+        margin-left: 60px;
+        padding-bottom: 10px;
+    }
+}

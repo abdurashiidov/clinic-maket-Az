@@ -1,0 +1,59 @@
+.findus{
+
+
+    &::before{
+        content: "";
+        position: absolute;
+        display: block;
+        background-repeat: no-repeat;
+        background-image: url(./../../image/contact-dogs-steps.png); 
+        width: 934px;
+        height: 330px;
+        margin-left: 250px;
+        top: 780px;
+        // right: 0;
+    }
+
+    &__heading{
+        font-family: "Futura PT", "Arial", sans-serif;
+        display: flex;
+        justify-content: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 62px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        margin-top: 395px;
+
+        &::before{
+            position: relative;
+        }
+    }
+    &__span::before{
+        position: absolute;
+        content: "";
+        display: block;
+        background-repeat: no-repeat;
+        margin-top: -125px;
+        margin-left: 600px;
+        width: 112px;
+        height: 113px;
+        background-image: url(./../../image/contact-lupa.svg); 
+    }
+
+    &__wrap-map{
+        display: flex;
+
+        // &__img::before{
+        //     content: "";
+        //     position: relative;
+        //     display: block;
+        //     background-repeat: no-repeat;
+        //     background-image: url(./../../image/contact-dog-2.png); 
+        //     width: 443px;
+        //     height: 342px;
+        // }
+    }
+}

@@ -1,0 +1,92 @@
+.information{
+    margin-top: 70px;
+
+    // &::after{
+    //     content: "";
+    //     background-image: url(./../../image/faq-bird.png);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     width: 654px;
+    //     height: 640px;
+    // }
+
+    &__heading{
+        font-family: "Futura PT", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        margin-left: -60px;
+        margin-bottom: -50px;
+    }
+
+    &__text{
+        font-family: "Futura PT", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+}
+
+
+// .active-for-img::after{
+//     content: "";
+//     background-image: url(./../../image/faq-bird.png);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     width: 654px;
+//     height: 640px;  
+
+// }
+.active-faq-button{
+    display: flex;
+    flex-direction: column;
+}
+.wrap-spanner{
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.faq-span{
+    // margin-right: 28px;
+    padding-left: 0;
+    margin-left: -250px;
+    font-family: "Futura PT", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-right: 28px;
+
+    &::before{
+        content: "";
+        background-image: url(./../../image/faq-inf-pet-blue.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23px;
+        height: 20px;
+    }
+}
+.faq-span2{
+    font-family: "Futura PT", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #78C0DE;
+}

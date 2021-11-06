@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F9F8F8;
+    
+    ;
+    font-family: "Futura PT" , sans-serif; 
+    
+}
+* ::after, *::before{
+            box-sizing: inherit;
+}
+.container{
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}

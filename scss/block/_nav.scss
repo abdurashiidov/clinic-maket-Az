@@ -1,0 +1,211 @@
+.nav{
+    display: flex;
+    margin-top: 12px;
+    background-color: #FFFFFF;
+    &-commet{
+
+        display: flex;
+        width: 100%;
+        height: 61px;
+        justify-content: space-between;
+    }
+    &__list{
+
+        width: 692px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 70px;
+        &-item{
+            list-style-type: none;
+            margin-top: 20px;
+            &--atribut{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;    
+                &:hover{
+                border-bottom: 3px solid #FFBD54;
+                    padding-bottom: 5px;
+                    transition: 0.3s;
+                    color: black;
+                    opacity: 1;
+                }   
+                &:active{
+                    opacity:0.5;
+                }  
+                     
+                    &::before{
+                        position: absolute;
+                        right: 70px;
+                        content: "";
+                        background-image: url(./../../image/home-fish-active.png);
+                        display: block;
+                        background-size: cover;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        transition: 0.5s;
+                    }
+
+            }
+            &--atribut1{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+                &:hover{
+                    border-bottom: 3px solid #FFBD54;
+                        padding-bottom: 5px;
+                        transition: 0.3s;
+                        color: black;
+                        opacity: 1;
+                    }  
+                    &:active{
+                        opacity:0.5;
+                    }      
+            }
+            &--atribut2{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+                &:hover{
+                    border-bottom: 3px solid #FFBD54;
+                        padding-bottom: 5px;
+                        transition: 0.3s;
+                        color: black;
+                        opacity: 1;
+                    }  
+                    &:active{
+                        opacity:0.5;
+                    }      
+            }
+            &--atribut3{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+                &:hover{
+                    border-bottom: 3px solid #FFBD54;
+                        padding-bottom: 5px;
+                        transition: 0.3s;
+                        color: black;
+                        opacity: 1;
+                    }  
+                    &:active{
+                        opacity:0.5;
+                    }      
+            }
+            &--atribut4{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+                &:hover{
+                    border-bottom: 3px solid #FFBD54;
+                        padding-bottom: 5px;
+                        transition: 0.3s;
+                        color: black;
+                        opacity: 1;
+                    }  
+                    &:active{
+                        opacity:0.5;
+                    }      
+            }
+            &--atribut5{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;        
+
+                &:hover{
+                    border-bottom: 3px solid #FFBD54;
+                        padding-bottom: 5px;
+                        transition: 0.3s;
+                        color: black;
+                    }
+                    &:active{
+                        opacity:0.5;
+                    }      
+            }
+        }
+
+        &-image{
+            position: absolute;
+            left: 20px;
+            top: 26px;
+
+            &:hover{
+                opacity: 0.8;
+            }
+            &:active{
+                opacity: 0.6;
+            }
+        }
+    }
+    &__commit{
+        &:active{
+            opacity:0.5;
+        }  
+        position: relative;
+        left: 182px;
+        margin-top: 20px;
+        &-atribut{
+            text-decoration: none;
+            font-family: "Futura PT" , sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: right;
+            display: flex;
+            color: #333333;
+            &::before{
+                content: "";
+                background-image: url(./../image/home-pet.svg);
+                display: block;
+                background-size: cover;
+                width: 23px;
+                height: 20px;
+                background-repeat: no-repeat;
+                margin-top: 2px;
+                position: relative;
+                bottom: 2px;
+                right: 10px;
+            }
+        }
+
+    }
+}

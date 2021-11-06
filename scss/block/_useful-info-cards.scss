@@ -1,0 +1,98 @@
+.container-info{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.info-cards1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+
+}
+.info-cards2{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.info-card{
+    max-width: 305px;
+    border-radius: 5px 5px 0px 0px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+        box-shadow: 15px 10px 10px grey;
+        transition: 0.5s;
+    }
+    &:active{
+        opacity: 0.5;
+    }
+}
+.info-cards__span{
+    font-family: "Futura PT", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+    margin-left: 200px;
+    margin-top: 21px;
+}
+.active-info-heading{
+    font-family: "Futura PT", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.active-info-text{
+    font-family: "Futura PT", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    margin-bottom: 38px;
+    margin-top: 10px;
+
+}
+.useful-btn__heading{
+    font-family: "Futura PT", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 10px;
+    
+}
+.wrap-btn-inline{
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.active-useful-btn{
+    margin-left: 530px;
+    margin-top: 170px;
+
+    &:hover{
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    &:active{
+        opacity: 0.5;
+        box-shadow: 3px 3px red, -1em 0 .4em olive;
+    }
+}
