@@ -2660,6 +2660,11 @@ body {
           flex-direction: row-reverse;
 }
 
+.infor__right-side__img {
+  position: relative;
+  margin-right: -150px;
+}
+
 .infor__right-side__text {
   margin: 0;
   padding: 0;
@@ -2669,8 +2674,9 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #949494;
-  margin-top: 100px;
+  margin-top: 120px;
   max-width: 494px;
+  margin-right: 100px;
 }
 
 .color-yellow {
