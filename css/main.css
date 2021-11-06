@@ -2707,6 +2707,7 @@ body {
   line-height: 48px;
   color: #333333;
   margin-bottom: 24px;
+  margin-top: 80px;
 }
 
 .trim__left-side__text {
@@ -2728,7 +2729,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
 }
 
 .trim-arrows {
