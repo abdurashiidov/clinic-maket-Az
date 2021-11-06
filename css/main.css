@@ -2686,4 +2686,10 @@ body {
 .color-blue {
   color: #64bde6;
 }
+
+.trim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
