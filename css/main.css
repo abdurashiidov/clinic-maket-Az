@@ -2724,6 +2724,12 @@ body {
   font-size: 24px;
 }
 
+.trim__right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .trim-arrows {
   display: -webkit-box;
   display: -ms-flexbox;
