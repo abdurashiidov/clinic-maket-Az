@@ -2707,4 +2707,15 @@ body {
   line-height: 48px;
   color: #333333;
 }
+
+.trim__left-side__text {
+  margin: 0;
+  padding: 0;
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
 /*# sourceMappingURL=main.css.map */
