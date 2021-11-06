@@ -2692,4 +2692,8 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.trim__left-side {
+  max-width: 416px;
+}
 /*# sourceMappingURL=main.css.map */
