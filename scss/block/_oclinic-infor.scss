@@ -27,4 +27,21 @@
         }
 
     }
+
+    &__right-side{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+
+        &__text{
+            margin: 0;
+            padding: 0;
+            font-family: "Futura PT", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+        }
+    }
 }
