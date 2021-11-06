@@ -2718,4 +2718,10 @@ body {
   line-height: 20px;
   color: #949494;
 }
+
+.trim-arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
