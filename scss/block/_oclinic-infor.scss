@@ -1,6 +1,25 @@
 .infor{
     margin-top: 50px;
-}
-.infor__left-side{
-    display: flex;
+
+    &__left-side{
+        display: flex;
+        justify-content: space-between;
+
+        &__img{
+            position: relative;
+        }
+
+        &__text{
+            max-width: 557px;
+            margin: 0;
+            padding: 0;
+            font-family: "Futura PT", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 26px;
+            color: #949494;
+        }
+
+    }
 }
