@@ -2616,4 +2616,14 @@ body {
   margin-right: 50px;
   margin-top: -120px;
 }
+
+.infor {
+  margin-top: 50px;
+}
+
+.infor__left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
