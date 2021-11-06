@@ -2720,6 +2720,10 @@ body {
   color: #949494;
 }
 
+.trim__left-side__text2 {
+  font-size: 24px;
+}
+
 .trim-arrows {
   display: -webkit-box;
   display: -ms-flexbox;
