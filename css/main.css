@@ -2669,5 +2669,14 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #949494;
+  margin-top: 100px;
+}
+
+.color-yellow {
+  color: #FFBD54;
+}
+
+.color-blue {
+  color: #64bde6;
 }
 /*# sourceMappingURL=main.css.map */
