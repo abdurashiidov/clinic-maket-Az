@@ -2696,4 +2696,9 @@ body {
 .trim__left-side {
   max-width: 416px;
 }
+
+.trim__left-side__heading {
+  margin: 0;
+  padding: 0;
+}
 /*# sourceMappingURL=main.css.map */
