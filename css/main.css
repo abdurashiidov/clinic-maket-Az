@@ -1932,6 +1932,7 @@ body {
   background-image: url(./../../image/faq-bird.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 654px;
 }
 
 .information__heading {
