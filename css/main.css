@@ -2860,6 +2860,13 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 4px;
+  font-family: "Futura PT", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #333333;
 }
 
 .active-footer {
