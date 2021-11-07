@@ -2760,6 +2760,15 @@ body {
   margin-right: 64px;
 }
 
+.trim-left:hover {
+  background-color: #ffffff;
+  background-size: 50px 50px;
+}
+
+.trim-left:active {
+  opacity: 0.7;
+}
+
 .container-oclinic {
   max-width: 1445px;
   margin: 0 auto;
@@ -2851,9 +2860,29 @@ body {
   margin-bottom: 3px;
 }
 
+.oclinic-footer__time__text1:hover {
+  color: #FFBD54;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.oclinic-footer__time__text1:active {
+  opacity: 0.6;
+}
+
 .oclinic-footer__addres {
   max-width: 257px;
   margin-right: 80px;
+}
+
+.oclinic-footer__addres:hover {
+  color: #FFBD54;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.oclinic-footer__addres:active {
+  opacity: 0.6;
 }
 
 .oclinic-footer__number {
@@ -2877,6 +2906,16 @@ body {
   line-height: 18px;
   text-align: right;
   color: #333333;
+}
+
+.oclinic-footer__number__text1:hover {
+  color: #FFBD54;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.oclinic-footer__number__text1:active {
+  opacity: 0.6;
 }
 
 .active-footer {

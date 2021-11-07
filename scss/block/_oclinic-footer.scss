@@ -66,12 +66,28 @@
             line-height: 18px;
             color: #333333;
             margin-bottom: 3px;
+
+            &:hover{
+                color: #FFBD54;
+                transition: 0.3s;
+            }
+            &:active{
+                opacity: 0.6;
+            }
         }
     }
 
     &__addres{
         max-width: 257px;
         margin-right: 80px;
+
+        &:hover{
+            color: #FFBD54;
+            transition: 0.3s;
+        }
+        &:active{
+            opacity: 0.6;
+        }
     }
 
     &__number{
@@ -89,6 +105,14 @@
             line-height: 18px;
             text-align: right;
             color: #333333;
+
+            &:hover{
+                color: #FFBD54;
+                transition: 0.3s;
+            }
+            &:active{
+                opacity: 0.6;
+            }
         }
     }
 }
