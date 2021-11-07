@@ -2858,6 +2858,7 @@ body {
   position: relative;
   margin-left: -20px;
   margin-bottom: -20px;
+  cursor: pointer;
 }
 
 .oclinic-footer__time__text1 {
