@@ -2760,6 +2760,15 @@ body {
   margin-right: 64px;
 }
 
+.container-oclinic {
+  max-width: 1445px;
+  margin: 0 auto;
+  padding: 0 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .oclinic-footer {
   background-color: #F3F3F3;
   display: -webkit-box;
