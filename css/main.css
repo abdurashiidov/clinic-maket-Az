@@ -2803,6 +2803,16 @@ body {
   margin-bottom: 14px;
 }
 
+.oclinic-footer__types2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .active-footer {
   display: -webkit-box;
   display: -ms-flexbox;
