@@ -1933,13 +1933,13 @@ body {
 
 .information::after {
   content: "";
-  background-image: url(./../../image/faq-bird.png);
+  background-image: url(./../../image/faq-bird-yellow.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 654px;
   height: 640px;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 800px;
 }
 
 .information__heading {
