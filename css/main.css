@@ -2846,6 +2846,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-right: 138px;
+  cursor: pointer;
 }
 
 .oclinic-footer__time::before {
