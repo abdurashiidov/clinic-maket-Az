@@ -1929,8 +1929,10 @@ body {
 .information {
   margin-top: 70px;
   margin-bottom: 200px;
+  background-image: url(./../../image/faq-bird.png);
 }
 
+back
 .information__heading {
   font-family: "Futura PT", "Arial", sans-serif;
   font-style: normal;
