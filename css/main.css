@@ -2788,6 +2788,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 87px;
 }
 
 .oclinic-footer__types1 {
@@ -2811,6 +2812,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 157px;
 }
 
 .active-footer {
