@@ -1,22 +1,25 @@
 .information{
     margin-top: 70px;
     margin-bottom: 200px;
-    background-image: url(./../../image/faq-bird.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 654px;
-    height: 640px;
+    // background-image: url(./../../image/faq-bird.png);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // width: 654px;
+    // height: 640px;
+    // position: absolute;
 
     
 
-    // &::after{
-    //     content: "";
-    //     background-image: url(./../../image/faq-bird.png);
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    //     width: 654px;
-    //     height: 640px;
-    // }
+    &::after{
+        content: "";
+        background-image: url(./../../image/faq-bird.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 654px;
+        height: 640px;
+        position: relative;
+        margin-left: 50px;
+    }
 
     &__heading{
         font-family: "Futura PT", "Arial", sans-serif;

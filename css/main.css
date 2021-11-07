@@ -1929,10 +1929,17 @@ body {
 .information {
   margin-top: 70px;
   margin-bottom: 200px;
+}
+
+.information::after {
+  content: "";
   background-image: url(./../../image/faq-bird.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 654px;
+  height: 640px;
+  position: relative;
+  margin-left: 50px;
 }
 
 .information__heading {
