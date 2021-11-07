@@ -2808,7 +2808,9 @@ body {
 }
 
 .oclinic-footer__types1:hover {
-  background-color: #FFBD54;
+  color: #FFBD54;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .oclinic-footer__types2 {
