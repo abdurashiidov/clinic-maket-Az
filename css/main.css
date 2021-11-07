@@ -2913,6 +2913,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #333333;
+  cursor: pointer;
 }
 
 .oclinic-footer__addres:hover {
