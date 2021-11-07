@@ -2841,6 +2841,10 @@ body {
   margin-bottom: 3px;
 }
 
+.oclinic-footer__addres {
+  max-width: 157px;
+}
+
 .active-footer {
   display: -webkit-box;
   display: -ms-flexbox;
