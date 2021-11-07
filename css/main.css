@@ -2880,6 +2880,7 @@ body {
 
 .oclinic-footer__time__text1:active {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .oclinic-footer__addres {
