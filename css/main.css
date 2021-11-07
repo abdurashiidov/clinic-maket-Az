@@ -2924,6 +2924,7 @@ body {
 
 .oclinic-footer__addres:active {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .oclinic-footer__number {
