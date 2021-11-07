@@ -56,6 +56,15 @@
         flex-direction: column;
         margin-right: 138px;
 
+        &::before{
+            content: "";
+            background-image: url(./../../image/home-calander.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 16px;
+            height: 16px;
+        }
+
         &__text1{
             margin: 0;
             padding: 0;
