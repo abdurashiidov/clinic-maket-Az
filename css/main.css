@@ -2923,14 +2923,14 @@ body {
   cursor: pointer;
 }
 
-.oclinic-footer__addres:hover {
+.oclinic-footer__addres__text:hover {
   color: #FFBD54;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.oclinic-footer__addres:active {
+.oclinic-footer__addres__text:active {
   opacity: 0.6;
   cursor: pointer;
 }

@@ -113,6 +113,7 @@
 
         }
 
+
         &__text{
             max-width: 157px;
             font-family: "Futura PT", "Arial", sans-serif;
@@ -124,17 +125,19 @@
             align-items: center;
             color: #333333;
             cursor: pointer;
+
+            &:hover{
+                color: #FFBD54;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+            &:active{
+                opacity: 0.6;
+                cursor: pointer;
+            }
         }
 
-        &:hover{
-            color: #FFBD54;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-        &:active{
-            opacity: 0.6;
-            cursor: pointer;
-        }
+
     }
 
     &__number{
