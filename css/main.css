@@ -2766,4 +2766,10 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.active-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
