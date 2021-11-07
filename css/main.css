@@ -2813,6 +2813,10 @@ body {
   transition: 0.3s;
 }
 
+.oclinic-footer__types1:active {
+  opacity: 0.8;
+}
+
 .oclinic-footer__types2 {
   display: -webkit-box;
   display: -ms-flexbox;
