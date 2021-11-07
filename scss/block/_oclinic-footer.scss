@@ -36,9 +36,17 @@
     &__types2{
         display: flex;
         flex-direction: column;
+        margin-right: 157px;
 
     }
+
+    &__time{
+        display: flex;
+    }
 }
+
+
+
 .active-footer{
     display: flex;
     margin-top: 62px;
