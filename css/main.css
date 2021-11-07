@@ -2786,6 +2786,12 @@ body {
           flex-direction: column;
 }
 
+.oclinic-footer__types1 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 .active-footer {
   display: -webkit-box;
   display: -ms-flexbox;
