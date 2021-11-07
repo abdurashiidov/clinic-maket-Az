@@ -2807,6 +2807,10 @@ body {
   margin-bottom: 14px;
 }
 
+.oclinic-footer__types1:hover {
+  background-color: #FFBD54;
+}
+
 .oclinic-footer__types2 {
   display: -webkit-box;
   display: -ms-flexbox;
