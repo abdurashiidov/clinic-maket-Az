@@ -7,9 +7,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-
-
 }
+// .info-cards{
+//     // margin-bottom: 200px;
+// }
 .info-cards2{
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,7 @@
     max-width: 305px;
     border-radius: 5px 5px 0px 0px;
     cursor: pointer;
+    // margin-bottom: 200px;
 
     &:hover{
         opacity: 0.8;
@@ -86,6 +88,7 @@
 .active-useful-btn{
     margin-left: 530px;
     margin-top: 170px;
+    margin-bottom: 200px;
 
     &:hover{
         opacity: 0.8;

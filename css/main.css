@@ -2173,7 +2173,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   width: 415px;
-  height: 4317px;
+  height: 317px;
   position: absolute;
   background-position-y: 0;
   margin-left: 620px;
@@ -2543,6 +2543,7 @@ body {
 .active-useful-btn {
   margin-left: 530px;
   margin-top: 170px;
+  margin-bottom: 200px;
 }
 
 .active-useful-btn:hover {
