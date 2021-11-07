@@ -63,6 +63,9 @@
             background-size: cover;
             width: 16px;
             height: 16px;
+            position: relative;
+            margin-left: -20px;
+            margin-bottom: -20px;
         }
 
         &__text1{
@@ -90,6 +93,31 @@
         max-width: 257px;
         margin-right: 80px;
 
+        &::before{
+            content: "";
+            background-image: url(./../../image/footer-home.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            width: 17px;
+            height: 16px;
+            margin-bottom: -22px;
+            margin-left: -20px;
+
+        }
+
+        &__text{
+            max-width: 157px;
+            font-family: "Futura PT", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+        }
+
         &:hover{
             color: #FFBD54;
             transition: 0.3s;
@@ -102,6 +130,21 @@
     &__number{
         display: flex;
         flex-direction: column;
+        cursor: pointer;
+
+        &::before{
+            content: "";
+            background-image: url(./../../image/home-phone.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            width: 16px;
+            height: 16px;
+            margin-bottom: -20px;
+            margin-left: -20px;
+            cursor: pointer;
+
+        }
 
         &__text1{
             margin: 0;
@@ -118,9 +161,11 @@
             &:hover{
                 color: #FFBD54;
                 transition: 0.3s;
+                cursor: pointer;
             }
             &:active{
                 opacity: 0.6;
+                cursor: pointer;
             }
         }
     }

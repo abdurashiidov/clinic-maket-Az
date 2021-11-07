@@ -2855,6 +2855,9 @@ body {
   background-size: cover;
   width: 16px;
   height: 16px;
+  position: relative;
+  margin-left: -20px;
+  margin-bottom: -20px;
 }
 
 .oclinic-footer__time__text1 {
@@ -2884,6 +2887,34 @@ body {
   margin-right: 80px;
 }
 
+.oclinic-footer__addres::before {
+  content: "";
+  background-image: url(./../../image/footer-home.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 17px;
+  height: 16px;
+  margin-bottom: -22px;
+  margin-left: -20px;
+}
+
+.oclinic-footer__addres__text {
+  max-width: 157px;
+  font-family: "Futura PT", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+
 .oclinic-footer__addres:hover {
   color: #FFBD54;
   -webkit-transition: 0.3s;
@@ -2902,6 +2933,20 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: pointer;
+}
+
+.oclinic-footer__number::before {
+  content: "";
+  background-image: url(./../../image/home-phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-bottom: -20px;
+  margin-left: -20px;
+  cursor: pointer;
 }
 
 .oclinic-footer__number__text1 {
@@ -2921,10 +2966,12 @@ body {
   color: #FFBD54;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .oclinic-footer__number__text1:active {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .active-footer {
