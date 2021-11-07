@@ -2919,6 +2919,7 @@ body {
   color: #FFBD54;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .oclinic-footer__addres:active {
