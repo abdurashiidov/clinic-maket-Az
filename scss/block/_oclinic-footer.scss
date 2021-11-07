@@ -63,6 +63,11 @@
         max-width: 257px;
         margin-right: 80px;
     }
+
+    &__number{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
