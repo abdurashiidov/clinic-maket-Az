@@ -2856,6 +2856,12 @@ body {
           flex-direction: column;
 }
 
+.oclinic-footer__number__text1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
 .active-footer {
   display: -webkit-box;
   display: -ms-flexbox;

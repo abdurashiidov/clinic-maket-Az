@@ -67,6 +67,12 @@
     &__number{
         display: flex;
         flex-direction: column;
+
+        &__text1{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 4px;
+        }
     }
 }
 
