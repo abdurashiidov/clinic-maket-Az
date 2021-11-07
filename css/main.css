@@ -2885,6 +2885,7 @@ body {
 .oclinic-footer__addres {
   max-width: 257px;
   margin-right: 80px;
+  cursor: pointer;
 }
 
 .oclinic-footer__addres::before {
