@@ -2870,6 +2870,7 @@ body {
   line-height: 18px;
   color: #333333;
   margin-bottom: 3px;
+  cursor: pointer;
 }
 
 .oclinic-footer__time__text1:hover {
