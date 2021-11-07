@@ -1317,6 +1317,7 @@ template {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 169px;
 }
 
 .boxes {
